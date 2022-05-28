@@ -2,21 +2,35 @@
 
 ## Objetivo
 
-Olá, seja bem vindo.
 O objetivo deste Repositório é oferecer uma estrutura modelo, simples porém eficiente, para iniciar um projeto.
-Neste em específico ao clonar este repositório e iniciá-lo, automaticamente você terá instalado as seguintes dependências
-<br>Express
-<br>ejs
-<br>dotenv
-<br>body-parse
+Ao clonar este repositório e iniciá-lo, automaticamente você terá instalado as seguintes dependências:
+
+<br> * Express
+<br> * ejs
+<br> * dotenv
+<br> * body-parse
 
 ## Como usar
 
 ### Clonar
-* Após clonar este repositório em seu computador, utilize o prompt de comando ou terminal do VSCode. 
-Pelo terminal encontre o caminho até o diretório. Ex:
 
-C:\User\Projetos\Modelos\Estrutura-para-Projeto-com-MVC>
+Para clonar siga os seguintes passos:
+
+* Aqui no GitHub, na página principal deste repositório, clique em => código
+<p float="left" align="center">
+  <img src="./public/img/Clonar-repositorio.png" width="40%" />  
+</p>
+
+* Copie a URL deste repositório
+* Use o prompt de comando/ terminal do VSCode e acesse um diretório para o qual deseja clonar
+* Digite git clone (clonar git) e cole a URL que você copiou anteriormente.
+
+git clone https://github.com/3insteinDev/Modelo-Estrutural-MVC.git
+
+* Após clonado, acesse o diretório pelo terminal, digitando o seguinte comando:
+
+cd ./ESTRUTURA-PARA-PROJETO-COM-MVC
+
 
 ### Instalar dependencias
 * Após acessar o diretório Estrutura-para-Projeto-com-MVC, Digite o seguinte comando no terminal:
@@ -32,22 +46,9 @@ Ao acessar o arquivo package.json, na parte de dependências irá aparecer estas
 
 ## Conteúdo (Diretórios e  Arquivos Iniciais)
 
-app/	 => 	controllers/
-				models/
-				views/		=>	layout/
-								pages/
-								partial	/	=>	footer.ejs
-												header.ejs
-public/	=>		css/
-				img/
-				js/
-routers/
-.gitingore
-.env
-app.js
-package-lock.json
-package.json
-README.md
+<p float="left" align="center">
+  <img src="./public/img/Estrutura-diretorios.png" width="40%" />  
+</p>
 
 <p float="left" align="center">
   <img src="./public/img/Modelo.png" width="40%" />  
